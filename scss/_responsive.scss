@@ -1,0 +1,309 @@
+@media (max-width: 1000px) {
+  .reviews {
+    & .articles {
+      flex-direction: column;
+      align-items: center;
+      line-height: 1.4em;
+
+      & article {
+        width: 90%;
+        margin: 0;
+        padding: 0 0 2em 0;
+        margin-top: 3em;
+        font-size: 1em;
+
+        & p {
+          padding: 0 5% 0 5%;
+        }
+        & img {
+          margin-top: 1.5em;
+          margin-bottom: 0.1em;
+        }
+        border-radius: 40px;
+        -webkit-border-radius: 40px;
+        -moz-border-radius: 40px;
+        -ms-border-radius: 40px;
+        -o-border-radius: 40px;
+      }
+    }
+  }
+}
+
+@media (max-width: 1000px) {
+  footer .intro {
+    flex-direction: column-reverse;
+    align-items: center;
+    & .right {
+      width: 100%;
+
+      text-align: center;
+
+      & img {
+        position: relative;
+        top: 1.5em;
+        right: 0;
+      }
+    }
+
+    & .left {
+      display: flex;
+
+      align-items: center;
+
+      width: 90%;
+      padding: 0;
+      margin: 0;
+      margin-bottom: 1.5em;
+      text-align: center;
+      & h1 {
+        text-align: center;
+        margin-top: 2em;
+        margin-bottom: 0.5em;
+      }
+
+      & p {
+        margin-bottom: 1em;
+      }
+    }
+
+    .mail {
+      width: 60vw;
+    }
+
+    .submit {
+      margin-left: -15em;
+    }
+  }
+}
+
+@media (max-width: 900px) {
+  .listings,
+  .profiles,
+  .photos {
+    display: flex;
+
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+    padding-left: 0;
+
+    & ul {
+      text-align: left;
+      padding: 0;
+      margin-top: 10%;
+    }
+
+    & h1 {
+      margin: 0;
+    }
+
+    & .left,
+    .right {
+      margin: 0;
+      padding: 0;
+
+      & h1 {
+        margin: 0;
+        margin-top: 8%;
+      }
+
+      & li {
+        & img {
+          margin: 2%;
+        }
+      }
+
+      & video {
+        margin: 10% 0 7% 0;
+      }
+    }
+  }
+
+  .profiles {
+    display: flex;
+
+    flex-direction: column-reverse;
+  }
+
+  video {
+    width: 70vw;
+    height: auto;
+    margin: 0;
+    margin-top: 15%;
+  }
+
+  .photos {
+    & ul {
+      margin-left: 4%;
+    }
+  }
+
+  .img {
+    margin-top: 2%;
+  }
+}
+
+@media (max-width: 800px) {
+  .listings,
+  .photos,
+  .profiles {
+    & .right,
+    .left {
+      & video {
+        max-width: 100%;
+        width: 80%;
+        height: 100%;
+        margin: 0;
+        margin-top: 5em;
+      }
+    }
+  }
+
+  .reviews {
+    margin-top: 10em;
+    & .intro {
+      & img {
+        right: 0;
+        margin-top: -8em;
+        margin-right: 2%;
+      }
+    }
+  }
+}
+
+@media (max-width: 700px) {
+  footer {
+    & .intro {
+      margin: 0 5%;
+      margin-top: 5em;
+    }
+
+    & video {
+      max-width: 100%;
+      width: 100%;
+      height: 100%;
+      margin: 0;
+    }
+
+    & .post-footer {
+      margin-top: 10em;
+    }
+  }
+
+  .intro {
+    & .mail {
+      width: 90%;
+      margin: 0;
+
+      padding-left: 1em;
+    }
+    & .submit {
+      margin: 0;
+
+      right: auto;
+      //   right: 0;
+      //   margin-right: 3em;
+      margin-left: -15em;
+      margin-top: 0.5em;
+      //   margin-top: -5em;
+    }
+  }
+
+  .reviews {
+    .intro {
+      width: 90%;
+
+      margin: 0 auto;
+
+      & .input {
+      }
+
+      & .mail {
+        width: 100%;
+      }
+
+      & .submit {
+        margin: 0;
+        top: 0.5em;
+        right: auto;
+        left: auto;
+        margin-left: -15em;
+      }
+    }
+  }
+
+  footer {
+    & .intro {
+      & .mail {
+        width: 80vw;
+      }
+
+      & .submit {
+        right: 1em;
+      }
+
+      & .right {
+        & img {
+          max-width: 100%;
+        }
+      }
+    }
+  }
+
+  .nav-bar {
+    flex-direction: column;
+
+    & .logo {
+      width: 100%;
+      margin-left: 0;
+      background-position: center;
+    }
+
+    & .bar {
+      margin-top: 1em;
+      justify-content: center;
+      & a:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+  .intro {
+    .title {
+      // margin-right: 0;
+      margin: 0 auto;
+      width: 90%;
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  body {
+    font-size: 110%;
+  }
+}
+
+@media (max-width: 400px) {
+  footer {
+    .post-footer {
+      flex-direction: column;
+      margin-top: 5em;
+      margin-bottom: 1em;
+      align-items: center;
+      text-align: center;
+      & .right {
+        margin: 0;
+        margin-top: 2em;
+      }
+
+      & .left {
+        margin-left: 0;
+        & img {
+          margin: 0;
+          margin: 0 auto;
+          margin-bottom: 1em;
+        }
+      }
+    }
+  }
+}
