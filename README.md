@@ -10,3 +10,7 @@ The result is landing website which from my point of view looks very simmilar, m
 <img 
      src="img/Vela1.png"
      alt="Grapefruit slice atop a pile of other slices">
+     
+<img 
+     src="img/Vela2.png"
+     alt="Grapefruit slice atop a pile of other slices">
