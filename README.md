@@ -1,5 +1,5 @@
 # Intent
-My goal was to practise my gathered knowledge from HTML, CSS and recently learned SASS. I wanted to test by knowledge from Web-Design at the edge of my capabilities. That's why I've decided to build website based on Awwwards winning website <a href="https://www.awwwards.com/sites/vela">VELA</a> by Nick Herasimenka.
+My goal was to practise my gathered knowledge from HTML, CSS and recently learned SASS. I wanted to test my knowledge from Web-Design at the edge of my capabilities. That's why I've decided to build website based on Awwwards winning website <a href="https://www.awwwards.com/sites/vela">VELA</a> by Nick Herasimenka.
 
 # Process
 Creating this project I was strugling with few things, mostly while working on the responsivity of the website.
