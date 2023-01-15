@@ -6,7 +6,7 @@ Creating this project I was strugling with few things, mostly while working on t
 
 # End Result
 The result is landing website which from my point of view looks very simmilar, maybe even identical to original. When it comes to my personal progress, I believe that this project was huge step forward for me towards understanding and practising HTML, CSS and SASS. Website is also fully responsive. In the future I could possibly add there some extra functionality with JavaScript and also make it a dynamic website with backend and database.
-<h3>My clone website is published <a href="https://davidek776.github.io/Vela_Clone_Website/">here</a>.</h3>
+<h3>My clone website is published <a href="https://davidek776.github.io/Vela_Clone_Website/">here</a></h3>
 
 <img 
      src="img/Vela1.png"
